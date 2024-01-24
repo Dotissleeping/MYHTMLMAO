@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  background-image: url("home\ background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  backdrop-filter: brightness(50%);
+  margin: 0;
+  overflow-x: hidden;
+}
+header img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+}
+h1 {
+  color: #e2d8d8;
+  font-size: 20px;
+  float: left;
+  margin-left: 20px
+}
+header {  
+  background-color: rgb(69, 69, 100);  
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  top: 0px;  
+  height: 80px;  
+  display: flex;  
+  align-items: center;  
+  z-index: 999;
+}
+header * {  
+  display: inline;  
+}
+
+header li {  
+margin: 3px;  
+}  
+header li a {  
+font-weight: bold;
+color: rgb(226, 226, 245);  
+text-decoration: none;  
+padding: 10px;
+background-color: #565e80;
+border-radius: 0px;
+}  
+
+.mySlides {
+  display: none;
+  margin-top: 100px;
+}
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin:auto;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 200px) {
+}
+
+.main {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.article {
+  background-color: rgba(245, 245, 220, 0.692);
+  padding: 20px;
+  margin-bottom:  150px;
+  border-radius: 5px;
+}
+.article h3 {
+  margin: 10px 0 25px 0;
+}
+.article p {
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+footer {
+  background-color:#26272b;
+  padding: 10px;
+  font-size:15px;
+  line-height:15px;
+  color:#737373;
+  position: absolute; z-index: 1;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+footer hr {
+  border-top-color:#bbb;
+  opacity:0.5
+}
+footer h6 {
+  color:#fff;
+  font-size:15px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+

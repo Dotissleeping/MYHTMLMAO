@@ -1,0 +1,126 @@
+body {
+  font-family: sans-serif;
+  background-image: url("home\ background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  backdrop-filter: brightness(50%);
+  margin: 0;
+  overflow-x: hidden;
+}
+header img {
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-left: 10px;
+}
+h1 {
+  color: #e2d8d8;
+  font-size: 20px;
+  float: left;
+  margin-left: 20px
+}
+header {  
+  background-color: rgb(69, 69, 100);  
+  position: fixed;  
+  left: 0;  
+  right: 0;  
+  top: 0px;  
+  height: 80px;  
+  display: flex;  
+  align-items: center;  
+  z-index: 999;
+}
+header * {  
+  display: inline;  
+}
+
+header li {  
+margin: 3px;  
+}  
+header li a {  
+font-weight: bold;
+color: rgb(226, 226, 245);  
+text-decoration: none;  
+padding: 10px;
+background-color: #565e80;
+border-radius: 0px;
+}  
+
+
+.main {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+.article {
+  background-color: rgba(245, 245, 220, 0.692);
+  padding: 20px;
+  margin-bottom:  20px;
+  border-radius: 5px;
+}
+.article h2 {
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+.article p {
+  margin-top: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.articles {
+  background-color: rgba(245, 245, 220, 0.692);
+  padding: 20px;
+  margin-bottom:  20px;
+  border-radius: 5px;
+}
+.articles h2 {
+  margin: 10px 0 25px 0;
+  text-align: center;
+}
+.articles p {
+  margin-top: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+.articles img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+.STRAND img {
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  background-color:#26272b;
+  padding: 10px;
+  font-size:15px;
+  line-height:15px;
+  color:#737373;
+  position: absolute; z-index: 1;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+footer hr {
+  border-top-color:#bbb;
+  opacity:0.5
+}
+footer h6 {
+  color:#fff;
+  font-size:15px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
